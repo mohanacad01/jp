@@ -1,0 +1,52 @@
+img{
+	width:70px;
+	height:70px;
+}
+.HomeHeading{
+	display: flex;
+	gap: 20px;
+justify-content: center;
+place-items: center;
+background-color: aliceblue;
+
+}body
+{
+	background-image:url("https://i.postimg.cc/2Sy2KbS5/jplogo2.jpg");
+	
+}
+h1{
+text-decoration: none;
+text-align: center;
+color:white;
+font-size: 40px;
+
+}
+.HomeHeadingDescription{
+    text-align: center;}
+
+	ul{
+	display:flex;
+	text-decoration:none;
+	gap: 20px;
+    list-style-type: none;
+	padding:20px 20px;
+li{
+float:left;
+border-right:1px solid white;
+
+}
+
+li a{
+   display: block;
+   padding: 20px 20px; color: white;
+   text-decoration: none;
+   text-align: center;
+}
+
+
+
+
+li a:hover{
+	color:red;
+	background-color: black;
+}

@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <form>
+            <label for ="First Name">Fname:</label><br>
+            <input type="text" name="fname" id="fname" value="mohana"><br>
+
+            <label for ="Last Name">Lname:</label><br>
+            <input type="text" name="Lname" id="Lname" value="s"><br>
+           
+
+            <label for="phnno">Phnno:</label><br>
+            <input type="tel" name="phnno" id="phnno" value="9994987424"><br>
+        </form>
+        <table border="3px">
+<tr>
+    <td id="fnamedisplay"></td>
+</tr>
+    <tr>
+           <td id="lnamedisplay" ></td>
+    </tr>
+    
+<tr>
+      <td id="phnnodisplay"></td>
+</tr>
+    </table>
+    <script>
+        document.getElemetBYId("fnamedisplay").innerHTML=document.getElemetBYId("fname").value;
+        document.getElemetBYId("lnamedisplay").innerHTML=document.getElemetBYId("lname").value;
+        document.getElemetBYId("phnnodisplay").innerHTML=document.getElemetBYId("phnno").value;
+    </script>
+</body>
+    </html>
