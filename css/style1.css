@@ -11,7 +11,20 @@
 
 .btn1{
     background-color: blue;
+   color:white 
 }
 .btn2{
     background-color: blue;
+    color:white 
 }
+.liststyle{
+	display:flex;
+    padding:20px 20px;
+    background-color: black;
+    color:white;
+    list-style-type: none;
+    text-decoration:none;
+    
+  gap: 20px;
+  }
+ 
