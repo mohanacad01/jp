@@ -2,4 +2,10 @@
     display:flex;
     list-style-type: none;
     background-color: black;
+    padding:20px 20px;
+    text-decoration:none;
+}
+
+.liststyle li a{
+    color: white;
 }
