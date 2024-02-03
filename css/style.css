@@ -4,8 +4,14 @@
     background-color: black;
     padding:20px 20px;
     text-decoration:none;
+    list-style-type: none;
+    gap: 15px;
 }
 
 .liststyle li a{
     color: white;
+}
+
+a{
+    text-decoration: none;
 }
