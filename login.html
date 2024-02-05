@@ -12,38 +12,33 @@
 </h1>
 
 <hr>
-<ul class="liststyle">
+<div class="liststyle">
+<ul >
 <li><a href="index.html">HOME</a></li>
 <li><a href="companies.html">COMPANIES</a></li>
  <li><a href="ourservices.html">OUR SERVICES</a></li>
-<div class = "button"></div>
- 
+ <input type ="text" placeholder="Search">
+ <img src="images/img.png">
 <a href="register.html"><input type="button"name ="REGISTER" id="register"
-    value="REGISTER" ></a>
-</ul>
+    value="REGISTER" ></a>                      
+</ul></div>
         
         
 
 
 <form class="style">
-<label for="USERNAME">USERNAME</label>
+<label for="USERNAME">User Name</label><br>
 <input type="Text" name="USERNAME" id="USERNAME" value=""><br>
 
-<label for="PASSWORD">PASSWORD</label>
+<label for="PASSWORD">Password</label><br>
 <input type="Text" name="PASSWORD" id="PASSWORD" value=""><br>
 
 <input type="checkbox" name="Showpassord" id="Showpassword" value="">
 <label for="Show password">Show password</label><br>
 
-<button type="button">forgot password</button><br>
+<a href ="forgotpassword.html"><button type="button">forgot password</button></a><br>
 
-<button type="button">Submitt</button><br>
-
-<button class="btn1" type="button">use OTP to login </button><br>
-
-<p>or</p>
-
-<button class="btn2" type="button">Sign in with Google</button><br>
+<button class="btn1" type="button">LOGIN</button><br>
 
 </form>
 
@@ -51,7 +46,7 @@
     document.GetElementById(USERNAME).innerHTML=USERNAME;
     document.GetElementById(PASSWORD).innerHTML=PASSWORD;
     document.GetElementById(Showpassord).innerHTML=showpassword;
-    
+    document.GetElementById(forgotpassword).innerHTML=forgotpassword;
 
 
 

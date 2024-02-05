@@ -43,7 +43,7 @@ border-right:1px solid white;
 }
 
 li a{
-   display: block;
+   display:block;
    padding: 20px 20px; color: black;
    text-decoration: none;
    text-align: center;
@@ -55,6 +55,10 @@ li a{
 li a:hover{
 	color:red;
 	background-color: black;
+}
+.style{
+	float: right;
+	;
 }
 
 .swiper {
@@ -79,5 +83,22 @@ li a:hover{
 
   .liststyle a{
 	color: white;
+  }
+  .dropdown {
+	float:right;
+	
+  }
+  .paragraph{
+float:right;
+  }
+  @media screen and {
+	max-width: 300px;{
+		li a{
+			font-size:10px;
+		}
+	}
+  }
+  .image{
+	width: 10px;
   }
 
