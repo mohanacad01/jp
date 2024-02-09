@@ -76,6 +76,9 @@ li a:hover{
 	border-radius:0.5rem;
   }
 
+
+  
+  
   .liststyle{
 	background-color: black;
 	color: white;
@@ -83,6 +86,7 @@ li a:hover{
 
   .liststyle a{
 	color: white;
+	
   }
   .dropdown {
 	float:right;
@@ -91,14 +95,35 @@ li a:hover{
   .paragraph{
 float:right;
   }
-  @media screen and {
-	max-width: 300px;{
-		li a{
-			font-size:10px;
-		}
-	}
-  }
-  .image{
-	width: 10px;
+  
+  .simpleicon{
+	width: 100%;
+	display: block;
+	
+	padding :5px;
+	
   }
 
+  .simpleicon img , .simpleicon p, .simpleicon select{
+	float: right;
+  }
+  
+  .image{
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float:right;
+  }
+  .paragraph
+  {
+	color:black;
+display:flex;
+  }
+  
+
+/*style for companies.html*/
+
+.stylebtn input{
+	padding: 500px;
+}
