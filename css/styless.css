@@ -57,10 +57,28 @@ li a:hover{
 	background-color: black;
 }
 .style{
-	float: right;
-	;
+	
+	float:right;
+	margin-top: 20px;
 }
-
+.listbtn1{
+	width:100px;
+	height:45px;
+	border-radius: 10px;
+	background-color:chartreuse;
+  }
+  .listbtn2
+  {
+	width:100px;
+    height:45px;
+    border-radius: 10px;
+	background-color:red;
+	color:black;
+  }
+  .overstyle{
+	
+	background-color: black;
+  }
 .swiper {
 	width: 1000px;
 	height: 300px;
@@ -80,7 +98,7 @@ li a:hover{
   
   
   .liststyle{
-	background-color: black;
+	
 	color: white;
   }
 
@@ -127,3 +145,16 @@ display:flex;
 .stylebtn input{
 	padding: 500px;
 }
+body{
+	background-color:white;
+}
+.h1{
+	justify-content: center;
+	color: black;
+}
+.h2{
+	justify-content: center;
+	font-size: large;}
+	.list{
+
+	}
