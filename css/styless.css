@@ -10,21 +10,27 @@ place-items: center;
 background-color: aliceblue;
 
 }
+
+
 body
 {
-    background-repeat: no-repeat;
+    width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
 	background-color: grey;
-	
-}
+	}
+ 
 h1{
 text-decoration: none;
 text-align: center;
 color:white;
-font-size: 40px;
+font-size: 75px;
 
 }
-.HomeHeadingDescription li{
+.HomeHeadingDescription p{
     text-align: center;
+	font-size: 20px;
+	color: white;
  
 }
 	
@@ -43,7 +49,8 @@ border-right:1px solid white;
 }
 
 li a{
-   display:block;
+   font-size: 20px;
+	display:block;
    padding: 20px 20px; color: black;
    text-decoration: none;
    text-align: center;
@@ -57,19 +64,23 @@ li a:hover{
 	background-color: black;
 }
 .style{
-	
+	font-size: large;
+	font-family:'Times New Roman', ;
 	float:right;
 	margin-top: 20px;
 }
 .listbtn1{
-	width:100px;
+	
+	font-size: 20px;
+	width:150px;
 	height:45px;
 	border-radius: 10px;
 	background-color:chartreuse;
   }
   .listbtn2
   {
-	width:100px;
+	font-size: 20px;
+	width:150px;
     height:45px;
     border-radius: 10px;
 	background-color:red;
@@ -80,8 +91,9 @@ li a:hover{
 	background-color: black;
   }
 .swiper {
-	width: 1000px;
+	width: 1500px;
 	height: 300px;
+	justify-content: center;
   }
   .swiper .swiper-slide img{
 	width: 100%;
@@ -140,23 +152,3 @@ display:flex;
   }
   
 
-/*style for companies.html*/
-
-.stylebtn input{
-	padding: 500px;
-}
-body{
-	background-color:white;
-}
-.h1{
-	justify-content: center;
-	color: black;
-}
-.btnmnc{
-	background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
