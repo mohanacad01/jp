@@ -33,63 +33,64 @@ font-size: 75px;
 	color: white;
  
 }
-	
+.overstyle{
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    background-color:black;
+    text-decoration:none;
+    list-style: none;
+	height: 90px;
+    align-items: center;
+}	
 
-ul{
-	display:flex;
-	text-decoration:none;
-	gap: 20px;
-    list-style-type: none;
-	padding:20px 20px;
-	}
-li{
-float:left;
-border-right:1px solid white;
-
+.liststyle{
+    display:flex;
+	font-size: 25px;
+    flex-direction:row ;
+        justify-content: space-between;
+        text-decoration: none;
+        gap: 20px;
+        font: 5px;
+    
+  
 }
-
-li a{
-   font-size: 20px;
-	display:block;
-   padding: 20px 20px; color: black;
-   text-decoration: none;
-   text-align: center;
-}
-
-
-
-
+.style{
+    display:flex;
+    flex-direction:row ;
+        justify-content: space-between;
+        text-decoration: none;
+       }       gap: 20px;
 li a:hover{
 	color:red;
 	background-color: black;
 }
-.style{
-	font-size: large;
-	font-family:'Times New Roman', ;
-	float:right;
-	margin-top: 20px;
-}
-.listbtn1{
+.login{
 	
-	font-size: 20px;
+	font-size: 30px;
 	width:150px;
 	height:45px;
 	border-radius: 10px;
-	background-color:chartreuse;
+    border-style:groove;
+    border-radius: 40px;
+    border-color:white;
+    color:white;
+    text-align: center;
+	background-color: white;
   }
-  .listbtn2
+  .register
   {
-	font-size: 20px;
+	font-size: 30px;
 	width:150px;
     height:45px;
-    border-radius: 10px;
-	background-color:red;
-	color:black;
+    border-radius: 50px;
+	background-color:orangered;
+	color:white;
+    text-align: center;
   }
-  .overstyle{
-	
-	background-color: black;
-  }
+
+
+
 .swiper {
 	width: 1500px;
 	height: 300px;

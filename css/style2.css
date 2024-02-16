@@ -2,7 +2,7 @@ body{
     background-color: white;
     font-size: 30px;
 }
-h1 {
+h2 {
 
    text-align: center; 
 }
@@ -34,6 +34,7 @@ float:right;
         justify-content: space-between;
         text-decoration: none;
         gap: 20px;
+        font: 5px;
     
   
 }
@@ -43,11 +44,15 @@ float:right;
         justify-content: space-between;
         text-decoration: none;
         gap: 20px;
+}.liststyle li{
+    font-size: 25px;
+    
+    
 }
 
 .login{
 	
-	font-size: 20px;
+	font-size: 30px;
 	width:150px;
 	height:45px;
 	border-radius: 10px;
@@ -59,7 +64,7 @@ float:right;
   }
   .register
   {
-	font-size: 20px;
+	font-size: 30px;
 	width:150px;
     height:45px;
     border-radius: 50px;
